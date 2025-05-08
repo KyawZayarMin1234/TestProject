@@ -13,6 +13,7 @@ public class Main {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","root", "MySQL123");
 
+
             System.out.println("Connected to database");
         }
 
